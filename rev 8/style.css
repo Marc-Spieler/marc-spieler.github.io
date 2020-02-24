@@ -77,6 +77,8 @@ hr {color: #fff; margin: 0.5em 5px;}
 .page
 {
     padding: 100px 20px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .head img {margin: 0 auto;}
@@ -90,16 +92,15 @@ hr {color: #fff; margin: 0.5em 5px;}
 
 .video-container
 {
-    position: relative;
+    width: 100%;
+    height: 0;
     padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+    position: relative;
 }
      
-.video-container iframe, .video-container object, .video-container embed
+.video-container iframe
 {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
 }
