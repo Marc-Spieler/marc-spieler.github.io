@@ -71,6 +71,11 @@ footer
     letter-spacing: 10px;
 }
 
+footer a:hover, .page a:hover
+{
+    color: #aaaaaf;
+    transition: 0.3s;
+}
 
 hr {color: #fff; margin: 0.5em 5px;}
 
