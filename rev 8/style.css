@@ -40,7 +40,7 @@ header
 {
     font-weight: 600;
     width: 100%;
-    min-width: 455px;
+    /*min-width: 455px;*/
     min-height: 60px;
     position: fixed;
     top: 0;
