@@ -36,6 +36,12 @@ a
     text-decoration: none;
 }
 
+a:hover
+{
+    color: #aaaaaf;
+    transition: 0.3s;
+}
+
 header
 {
     font-weight: 600;
@@ -71,13 +77,7 @@ footer
     letter-spacing: 10px;
 }
 
-footer a:hover, .page a:hover
-{
-    color: #aaaaaf;
-    transition: 0.3s;
-}
-
-hr {color: #fff; margin: 0.5em 5px;}
+hr {color: #fff; margin: 0.5em 20px;}
 
 .page
 {
@@ -90,10 +90,9 @@ hr {color: #fff; margin: 0.5em 5px;}
 
 #current_page {color: #68cefe;}
 
-#about
-{
-    margin-top: 20px;
-}
+#about {margin-top: 20px;}
+
+#contact p {line-height: 2;}
 
 .video-container
 {
