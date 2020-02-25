@@ -30,7 +30,7 @@ h2 {margin-bottom: 5px;}
 
 p
 {
-    color: #aaaaaf;
+    color: #cccccf;
     margin: 0;
 }
 
@@ -42,7 +42,7 @@ a
 
 a:hover
 {
-    color: #aaaaaf;
+    color: #68cefe;
     transition: 0.3s;
 }
 
@@ -101,8 +101,8 @@ hr {color: #fff; margin: 0.5em 20px;}
 
 #contact p {margin-bottom: 10px;}
 
-#achievements ul {margin: 0;}
-#achievements li {color: #aaaaaf;}
+ul {margin: 0;}
+#achievements li {color: #cccccf;}
 
 .video-container
 {
