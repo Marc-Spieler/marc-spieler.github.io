@@ -2,10 +2,13 @@ body
 {
     margin: 0;
     font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    text-rendering: optimizeLegibility;
     background: #282d33;
     color: #fff;
     font-size: 1.1em;
     line-height: 1.5;
+    position: relative;
+    min-height: 100vh;
 }
 
 img
@@ -23,10 +26,11 @@ h1, h2
 }
 
 h1 {margin-bottom: 10px;}
+h2 {margin-bottom: 5px;}
 
 p
 {
-    color: #aaaaaf;
+    color: #cccccf;
     margin: 0;
 }
 
@@ -38,7 +42,7 @@ a
 
 a:hover
 {
-    color: #aaaaaf;
+    color: #68cefe;
     transition: 0.3s;
 }
 
@@ -75,13 +79,16 @@ footer
     font-size: 1.8em;
     text-align: center;
     letter-spacing: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 hr {color: #fff; margin: 0.5em 20px;}
 
 .page
 {
-    padding: 100px 20px 50px;
+    padding: 100px 20px 155px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -94,8 +101,12 @@ hr {color: #fff; margin: 0.5em 20px;}
 
 #contact p {margin-bottom: 10px;}
 
+ul {margin: 0;}
+#achievements li {color: #cccccf;}
+
 .video-container
 {
+    margin-top: 15px;
     width: 100%;
     height: 0;
     padding-bottom: 56.25%;
