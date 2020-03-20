@@ -122,3 +122,9 @@
 {
     margin-top: .25em;
 }
+
+#breadcrumb
+{
+    text-rendering: optimizeLegibility;
+    font-size: 12px;
+}
