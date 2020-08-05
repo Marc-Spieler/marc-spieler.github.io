@@ -1,21 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Marc Spieler</title>
+        <title>Home - Marc Spieler</title>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/style.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.10/css/fontawesome.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.10/css/brands.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.10/css/regular.css" rel="stylesheet">
+
         <style>
-            body {background-color: #121212; font-family: 'Roboto', sans-serif;  text-align: center;}
-            div {height: 10vh; margin: 45vh 0vw;}
-            h1, p {color: #E0E0E0;}
-            h1 {font-size: 3vh;}
-            p {font-size: 2vh;}
+            .head {width: 100%;}
+            .head > img {width: 90%; display: block; margin: 0 auto;}
+            #about {margin-top: 20px;}
+
+            @media screen and (min-width: 950px) and (orientation: landscape)
+            {
+                .flex-container
+                {
+                    display: flex;
+                    flex-direction: row-reverse;
+                }
+
+                .head {width: 50%;}
+
+                .content {width: 50%; display: flex;}
+                .content-wrapper {height: max-content; margin: auto;}
+
+                #about {margin-top: 0px;}
+            }
         </style>
     </head>
     <body>
-        <div>
-            <h1>COMING SOON</h1>
-            <p>This website is under construction...</p>
+        <header>
+            <nav>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a id="current_page">HOME</a></li>
+                    <li><a href="/projects/">PROJECTS</a></li>
+                    <li><a href="/achievements/">ACHIEVEMENTS</a></li>
+                    <li><a href="/press-media/">PRESS</a></li>
+                    <li><a href="/contact/">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="page">
+            <div class="page-wrapper">
+                <div class="flex-container">
+                    <div class="head">
+                        <img src="/img/head.svg" alt="head">
+                    </div>
+        
+                    <div class="content" id="about">
+                        <div class="content-wrapper">
+                            <h1>about me</h1>
+                            <p>
+                                Hi I'm Marc Spieler.<br>
+                                I'm a high school student in the beautiful south of Germany.<br>
+                                I love spending my time on developing soccer robots.<br>
+                                Together with my team I am competing in national and international championships such as RoboCup Junior.<br>
+                                Learn more about this project <a href="/projects/">here</a>.<br>
+                                After school I'll take a gap year. This time will be used to further improve my teams soccer robots.<br>
+                                Besides I have a few other projects in mind which I'm very excited to explore.<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <footer>
+            <div class="social-links">
+                <a href="https://www.instagram.com/marcspieler_" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/marc-spieler/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.github.com/Marc-Spieler" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:contact@marcspieler.com" target="_blank"><i class="far fa-envelope"></i></a>
+            </div>
+        </footer>
+        
+        <script src="/js/navbar.js"></script>
     </body>
 </html>

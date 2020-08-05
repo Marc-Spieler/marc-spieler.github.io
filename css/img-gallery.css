@@ -1,0 +1,55 @@
+.img-gallery
+{
+    width: 33%;
+    padding: 10px;
+    min-width: 240px;
+    position: relative;
+    display: inline-block;
+}
+
+.img-gallery > img
+{
+    max-width: 100%;
+    transition: 0.3s;
+}
+
+.img-gallery > img:hover
+{
+    opacity: 0.15;
+    transition: 0.3s;
+}
+
+.img-gallery > div
+{
+    z-index: -1;
+}
+
+@media only screen and (min-width: 950px)
+{
+    .img-gallery
+    {
+        width: 25%;
+    }
+
+    .img-gallery > div
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 950px)
+{
+    .img-gallery
+    {
+        background-color: #0d2226;
+    }
+
+    .img-gallery > div
+    {
+        color: #dddddd;
+    }
+}
